@@ -1,0 +1,16 @@
+{
+	"version": 2,
+	"routes": [
+		{
+			"src": "/",
+			"methods": ["POST"],
+			"dest": "api/handler.js"
+		}
+	],
+	"functions": {
+		"api/handler.js": {
+			"memory": 512,
+			"maxDuration": 10
+		}
+	}
+}
